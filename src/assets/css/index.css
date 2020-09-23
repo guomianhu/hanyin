@@ -1,0 +1,148 @@
+*{margin: 0;padding: 0;}
+.index_bg{width: 100%;height: 100%;background:#000928 url(../../assets/images/mpbg.jpg) no-repeat center 120px;overflow: hidden;}
+.pagetit{text-align: center;font-size:24px;color: #02eeff;height: 93px;line-height: 90px; background: url(../../assets/images/topbj.png) no-repeat center top;position: relative;width: 98%;margin:0 auto!important; margin-top: 10px; background-size:cover;}
+.pagetit p{position: relative;left: -90px;}
+.userlink{position: absolute;right: 30px;top: 0;}
+.userlink li{float: left;font-size: 16px;color: #e4fdff;line-height: 75px;margin-left: 30px;position: relative;cursor: pointer;z-index: 4;}
+.userlink li+li::before{width: 1px;height:14px;background: #007AFF;position: absolute;left:-16px;top:30px;content: "";}
+.totrbg{width: 90px;height: 157px;position: absolute;right: 10px;top: 7px;background: url(../../assets/images/rt.png) no-repeat;}
+
+.wortetype li:nth-child(1)::before{background: url(../../assets/images/re.png) no-repeat;background-size: cover;}
+.wortetype li:nth-child(2)::before{background: url(../../assets/images/gr.png) no-repeat;background-size: cover;}
+.worter li{width: 180px;height: 100px;background: url(../images/line.png) no-repeat;text-align: center;color: #e4fdff;margin-bottom: 30px;}
+.worter li h4{font-size: 30px;color: #007AFF;padding-top: 7px;padding-bottom: 5px;height: 55px;}
+.worter li p{margin-top:5px;font-size: 16px;}
+.worter li:nth-child(1) h4{color: #24c768;background: url(../images/lin3.png) no-repeat center bottom;}
+.worter li:nth-child(2) h4{color: #fe9f11;background: url(../images/lin4.png) no-repeat center bottom;}
+.worter li:nth-child(3) h4{color: #02eeff;background: url(../images/lin5.png) no-repeat center bottom;}
+
+/* 地图模块样式 */
+.mapbox{width: 610px;height: 588px;background: url(../../assets/images/mapb.png) no-repeat;position: absolute;left: 20%;top: 40px;}
+.mapdata{width: 100%;height: 100%;position: relative;}
+.mapdata li{position: absolute;cursor: pointer;z-index: 1;}
+.mapdata li:nth-child(1){width: 208px;height: 177px;background: url(../../assets/images/map/mp1.png) no-repeat;top: 313px;z-index: 2;}
+.mapdata li:nth-child(2){width: 91px;height: 109px;background: url(../../assets/images/map/mp2.png) no-repeat;top: 466px;left: 43px;z-index: 1;}
+.mapdata li:nth-child(3){width: 85px;height: 79px;background: url(../../assets/images/map/mp3.png) no-repeat;top: 495px;left: 116px;z-index: 2;}
+.mapdata li:nth-child(4){width: 256px;height: 201px;background: url(../../assets/images/map/mp4.png) no-repeat;top: 329px;left: 93px;z-index: 3;}
+.mapdata li:nth-child(5){width: 157px;height: 210px;background: url(../../assets/images/map/mp5.png) no-repeat;top: 153px;left: 176px;}
+.mapdata li:nth-child(6){width: 172px;height: 143px;background: url(../../assets/images/map/mp6.png) no-repeat;top: 254px;left: 252px;}
+.mapdata li:nth-child(7){width: 120px;height: 104px;background: url(../../assets/images/map/mp7.png) no-repeat;top: 344px;left: 348px;}
+.mapdata li:nth-child(8){width: 105px;height: 156px;background: url(../../assets/images/map/mp8.png) no-repeat;top: 290px;left: 440px;z-index: 4;}
+.mapdata li:nth-child(9){width: 124px;height: 124px;background: url(../../assets/images/map/mp9.png) no-repeat;top: 325px;left: 442px;z-index: 3;}
+.mapdata li:nth-child(10){width: 110px;height: 118px;background: url(../../assets/images/map/mp10.png) no-repeat;top: 238px;left: 401px;}
+.mapdata li:nth-child(11){width: 66px;height: 62px;background: url(../../assets/images/map/mp11.png) no-repeat;top: 268px;left: 506px;}
+.mapdata li:nth-child(12){width: 92px;height: 148px;background: url(../../assets/images/map/mp12.png) no-repeat;top: 44px;left: 253px;}
+.mapdata li:nth-child(13){width: 74px;height: 248px;background: url(../../assets/images/map/mp13.png) no-repeat;top: 18px;left: 321px;z-index: 4;}
+.mapdata li:nth-child(14){width: 110px;height: 160px;background: url(../../assets/images/map/mp14.png) no-repeat;top: 109px;left: 342px;}
+.mapdata li:nth-child(15){width: 115px;height: 156px;background: url(../../assets/images/map/mp15.png) no-repeat;top: 113px;left: 412px;}
+.mapdata li:nth-child(16){width: 120px;height: 133px;background: url(../../assets/images/map/mp16.png) no-repeat;top: 4px;left: 382px;}
+.mapdata li:nth-child(17){width: 103px;height: 105px;background: url(../../assets/images/map/mp17.png) no-repeat;top: 19px;left: 452px;}
+.mapdata li:nth-child(18){width: 118px;height: 61px;background: url(../../assets/images/map/mp18.png) no-repeat;top: 1px;left: 486px;}
+
+.mapdata li:hover:nth-child(1),.mapdata li.active:nth-child(1){background: url(../../assets/images/map/mph1.png);}
+.mapdata li:hover:nth-child(2),.mapdata li.active:nth-child(2){background: url(../../assets/images/map/mph2.png);}
+.mapdata li:hover:nth-child(3),.mapdata li.active:nth-child(3){background: url(../../assets/images/map/mph3.png);}
+.mapdata li:hover:nth-child(4),.mapdata li.active:nth-child(4){background: url(../../assets/images/map/mph4.png);}
+.mapdata li:hover:nth-child(5),.mapdata li.active:nth-child(5){background: url(../../assets/images/map/mph5.png);}
+.mapdata li:hover:nth-child(6),.mapdata li.active:nth-child(6){background: url(../../assets/images/map/mph6.png);}
+.mapdata li:hover:nth-child(7),.mapdata li.active:nth-child(7){background: url(../../assets/images/map/mph7.png);}
+.mapdata li:hover:nth-child(8),.mapdata li.active:nth-child(8){background: url(../../assets/images/map/mph8.png);}
+.mapdata li:hover:nth-child(9),.mapdata li.active:nth-child(9){background: url(../../assets/images/map/mph9.png);}
+.mapdata li:hover:nth-child(10),.mapdata li.active:nth-child(10){background: url(../../assets/images/map/mph10.png);}
+.mapdata li:hover:nth-child(11),.mapdata li.active:nth-child(11){background: url(../../assets/images/map/mph11.png);}
+.mapdata li:hover:nth-child(12),.mapdata li.active:nth-child(12){background: url(../../assets/images/map/mph12.png);}
+.mapdata li:hover:nth-child(13),.mapdata li.active:nth-child(13){background: url(../../assets/images/map/mph13.png);}
+.mapdata li:hover:nth-child(14),.mapdata li.active:nth-child(14){background: url(../../assets/images/map/mph14.png);}
+.mapdata li:hover:nth-child(15),.mapdata li.active:nth-child(15){background: url(../../assets/images/map/mph15.png);}
+.mapdata li:hover:nth-child(16),.mapdata li.active:nth-child(16){background: url(../../assets/images/map/mph16.png);}
+.mapdata li:hover:nth-child(17),.mapdata li.active:nth-child(17){background: url(../../assets/images/map/mph17.png);}
+.mapdata li:hover:nth-child(18),.mapdata li.active:nth-child(18){background: url(../../assets/images/map/mph18.png);}
+
+.mapname{width:100%;height: 100%;position: relative;color: #e4fdff;}
+.mapname p{position: absolute;font-size: 15px;z-index: 0;}
+.mapdata li .mapname span{width: 40px;height: 40px;display: block; position: absolute;animation:scale 2s infinite cubic-bezier(0,0,.49,1.02);animation-delay:200ms;}
+.mapdata li .mapname span.zhen{background: url(../../assets/images/green.png) no-repeat;background-size: cover;}
+.mapdata li .mapname span.cun{background: url(../../assets/images/red.png) no-repeat;background-size: cover;}
+@keyframes scale {
+	0% {transform: scale(0.9);opacity: 1;}
+	50% {transform: scale(1.2);opacity: 1;}
+	100% {transform: scale(0.9);opacity: 1;}
+}
+.mapdata li:nth-child(1) .mapname p{left: 27%;top: 70%;}
+.mapdata li:nth-child(1) .mapname span.zhen{left: 60px;top: 85px;}
+.mapdata li:nth-child(1) .mapname span.cun{left: 100px;top: 65px;}
+
+.mapdata li:nth-child(2) .mapname p{left:30%;top:32%;}
+.mapdata li:nth-child(2) .mapname span.zhen{left: 33px;top: 50px;}
+.mapdata li:nth-child(2) .mapname span.cun{left: 30px;top: 5px;}
+
+.mapdata li:nth-child(3) .mapname p{left:27%;top:35%;}
+.mapdata li:nth-child(3) .mapname span.zhen{left:20px;top: 0;}
+.mapdata li:nth-child(3) .mapname span.cun{display: none;}
+
+.mapdata li:nth-child(4) .mapname p{left:40%;top:40%;}
+.mapdata li:nth-child(4) .mapname span.zhen{left:100px;top: 40px;}
+.mapdata li:nth-child(4) .mapname span.cun{left:90px;top: 100px;}
+
+.mapdata li:nth-child(5) .mapname p{left:33%;top:40%;}
+.mapdata li:nth-child(5) .mapname span.zhen{left:100px;top: 40px;}
+.mapdata li:nth-child(5) .mapname span.cun{left:30px;top: 120px;}
+
+.mapdata li:nth-child(6) .mapname p{left:33%;top:40%;}
+.mapdata li:nth-child(6) .mapname span.zhen{left:80px;top: 20px;}
+.mapdata li:nth-child(6) .mapname span.cun{left:30px;top: 70px;}
+
+.mapdata li:nth-child(7) .mapname p{left:30%;top:35%;}
+.mapdata li:nth-child(7) .mapname span.zhen{left:50px;top: 0;}
+.mapdata li:nth-child(7) .mapname span.cun{left:50px;top: 50px;}
+
+.mapdata li:nth-child(8) .mapname p{left:20%;top:50%;}
+.mapdata li:nth-child(8) .mapname span.zhen{left:40px;top: 30px;}
+.mapdata li:nth-child(8) .mapname span.cun{left:60px;top: 50px;}
+
+.mapdata li:nth-child(9) .mapname p{left:45%;top:60%;}
+.mapdata li:nth-child(9) .mapname span.zhen{left:80px;top:40px;}
+.mapdata li:nth-child(9) .mapname span.cun{display: none;}
+
+.mapdata li:nth-child(10) .mapname p{left:20%;top:50%;}
+.mapdata li:nth-child(10) .mapname span.zhen{left:50px;top: 20px;}
+.mapdata li:nth-child(10) .mapname span.cun{left:20px;top: 75px;}
+
+.mapdata li:nth-child(11) .mapname p{left:20%;top:44%;}
+.mapdata li:nth-child(11) .mapname span.zhen{left:0;top: 0;}
+.mapdata li:nth-child(11) .mapname span.cun{display: none;}
+
+.mapdata li:nth-child(12) .mapname p{left:20%;top:50%;}
+.mapdata li:nth-child(12) .mapname span.zhen{left:40px;top:30px;}
+.mapdata li:nth-child(12) .mapname span.cun{left:6px;top: 90px;}
+
+.mapdata li:nth-child(13) .mapname p{left:20px;top:51%;width: 20px;}
+.mapdata li:nth-child(13) .mapname span.zhen{left:20px;top:50px;}
+.mapdata li:nth-child(13) .mapname span.cun{left:15px;top: 90px;}
+
+.mapdata li:nth-child(14) .mapname p{left:30px;top:51%;}
+.mapdata li:nth-child(14) .mapname span.zhen{left:40px;top:30px;}
+.mapdata li:nth-child(14) .mapname span.cun{left:35px;top: 100px;}
+
+.mapdata li:nth-child(15) .mapname p{left:15px;top:35%;}
+.mapdata li:nth-child(15) .mapname span.zhen{left:40px;top:20px;}
+.mapdata li:nth-child(15) .mapname span.cun{left:15px;top: 80px;}
+
+.mapdata li:nth-child(16) .mapname p{left:10px;top:20%;}
+.mapdata li:nth-child(16) .mapname span.zhen{left:20px;top:50px;}
+.mapdata li:nth-child(16) .mapname span.cun{left:15px;top: 80px;}
+
+.mapdata li:nth-child(17) .mapname p{left:15px;top:50%;}
+.mapdata li:nth-child(17) .mapname span.zhen{left:20px;top:5px;}
+.mapdata li:nth-child(17) .mapname span.cun{left:45px;top: 20px;}
+
+.mapdata li:nth-child(18) .mapname p{left:45px;top:20%;}
+.mapdata li:nth-child(18) .mapname span.zhen{left:10px;top:-5px;}
+.mapdata li:nth-child(18) .mapname span.cun{left:50px;top: 24px;}
+
+@media (max-width:1440px){
+	.mapbox{left: 5%!important;}
+	.right_top h3 span,.right_top h3 em,.jclist li{font-size: 12px;}
+}
+
+

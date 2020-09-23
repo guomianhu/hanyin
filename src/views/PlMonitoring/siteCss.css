@@ -1,0 +1,736 @@
+/* 监测点展示, 地图上 监测点信息,弹框样式 */
+#sbBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 333;
+	overflow: hidden;
+	height: auto;
+}
+/* 管线位置查看 */
+.jwdcxBox {
+	position: absolute;
+	top: 2px;
+	left: 70px;
+	display: flex;
+	flex-direction: row;
+	width: 720px;
+	background-color: #aaa;
+}
+/* 左侧监测点信息 */
+.sbBox {
+	border: 2px solid #629dfd;
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+.leftsiteBox {
+	font-size: 16px;
+	width: 450px;
+	overflow: hidden;
+	background-color: #fff;
+	position: relative;
+	border-radius: 6px;
+}
+.sbHeader {
+	height: 36px;
+	line-height: 36px;
+	background-color: #e8f4fd;
+	border-bottom: 1px solid #999;
+}
+.sbHeader .sbLine {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 16px;
+	width: 3px;
+	background-color: #384863;
+	border-radius: 2px;
+}
+.jcdxxBox {
+	color: #222;
+	font-weight: 600;
+	font-size: 17px;
+	display: block;
+	padding-left: 20px;
+}
+.closepwBox {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.closepwBox .el-button {
+	height: 36px;
+	border: none;
+	font-size: 22px;
+	font-weight: 600;
+	background-color: #e8f4fd;
+}
+.jcdContent {
+	padding: 6px 10px 6px 20px;
+}
+#sbBox .jcdContent ul li {
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+/* 设备类型 */
+.facilityType {
+	font-size: 16px;
+	text-align: center;
+	line-height: 22px;
+	margin: 0;
+	border-bottom: 1px solid #999;
+}
+.facilityType ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.facilityType ul li {
+	padding: 6px 12px 4px 12px;
+	color: #444;
+	margin: 0;
+}
+.facilityType ul .red {
+	color: #0006fd;
+}
+.facilityType ul li:hover {
+	color: #0d0f8b;
+}
+.facilityType ul li:last-child {
+	border-right: none;
+}
+.facilitBox {
+	border-top: 1px solid#999;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.facilitBox .text-center .redColor td {
+	color: red;
+}
+
+/* 修改选项卡的样式 */
+.rowList .el-tabs__item:hover {
+	color: #0006fd;
+}
+.rowList .el-tabs .el-tabs__header {
+	background-color: #eff0ff;
+	margin: 0;
+}
+.rowList .el-tabs__header .el-tabs__item.is-active {
+	color: #0006fd;
+	border-bottom: 2px solid #999;
+	background-color: #fff;
+}
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+	box-shadow: none;
+	border-radius: 0;
+}
+.rowList .el-tabs__item {
+	padding: 0 10px;
+	height: 39px;
+	line-height: 39px;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.rowList .el-tabs__nav {
+	width: 100%;
+	overflow-x: auto;
+}
+.rowList .el-tabs__nav::-webkit-scrollbar {
+	width: 100%;
+	height: 6px;
+	margin-top: 2px;
+	background-color: rgb(236, 238, 238);
+}
+.rowList .el-tabs__nav::-webkit-scrollbar-track {
+	background: #f0f2f5;
+	border-radius: 2px;
+}
+.rowList .el-tabs__nav::-webkit-scrollbar-thumb {
+	background: rgb(204, 204, 204);
+	border-radius: 2px;
+}
+.rowList .el-tabs__nav::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 5px 5px;
+	height: 6px;
+}
+.rowList .el-tabs__nav::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 5px 5px;
+	height: 6px;
+}
+
+.rowList .el-tabs__nav-next,
+.rowList .el-tabs__nav-prev {
+	display: none;
+}
+.facilitBox .el-tabs__nav-wrap.is-scrollable {
+	padding: 0 !important;
+}
+.facilitBox .el-tabs--top.el-tabs--border-card .el-tabs__item:nth-child(2) {
+	padding-left: 6px !important;
+}
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+	border-right-color: #c2d7ff;
+	border-left-color: #c2d7ff;
+}
+
+.el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+	padding: 0 10px;
+}
+.el-tabs--top .el-tabs__item.is-top:last-child {
+	padding: 0 10px;
+}
+
+/* table */
+.facilitBox .el-tabs--border-card > .el-tabs__content {
+	padding: 10px 0;
+}
+.ooBox11 .el-tabs__content{
+	width: 100% !important;
+}
+.rowList .text-center {
+	margin: 6px;
+}
+.rowList .el-tabs--border-card {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.rowList .el-tabs--border-card > .el-tabs__content {
+	padding: 0;
+	text-align: center;
+}
+.rowList table {
+	border-collapse: collapse;
+	border: 1px solid #999;
+}
+.rowList table tr {
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+.rowList table tr:last-child {
+	border-bottom: none;
+}
+.rowList .sbBox table tr:hover {
+	background-color: #E5F4FD;
+}
+.rowList table tr th,
+.rowList table tr td {
+	border: 0;
+	padding: 4px 0px;
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+}
+.rowList table tr th {
+	font-size: 13px;
+}
+.sbBox table tbody {
+	max-height: 194px;
+	overflow: hidden;
+	display: block;
+	overflow-y: scroll;
+}
+.sbBox table thead,
+.sbBox table tbody tr {
+	width: 99.6%;
+	display: table;
+	table-layout: fixed;
+}
+.sbBox table tr td:last-child {
+	border-right: 1px solid #999 !important;
+}
+.sbBox table thead {
+	width: calc(100% - 7px);
+}
+.sbBox table tbody::-webkit-scrollbar {
+	width: 5px;
+}
+.sbBox table tbody::-webkit-scrollbar-track {
+	background-color: rgb(250, 250, 250);
+}
+.sbBox table tbody::-webkit-scrollbar-thumb {
+	background-color: #cccccc;
+}
+.sbBox table tbody::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 6px 6px;
+	height: 6px;
+}
+.sbBox table tbody::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 6px 6px;
+	height: 6px;
+}
+
+/* 右侧设备信息 , 参数实时数据 */
+.rightsiteBox {
+	width: 400px;
+	background-color: rgb(248, 234, 215);
+	position: relative;
+	margin-left: 10px;
+	border: 1px solid #2478ff;
+	border-radius: 6px;
+}
+
+/* 首页,右侧,警报列表下的区域信息统计 */
+.jcdsbBox,
+.zl99 {
+	margin: 10px 5px 0 5px;
+	border: 1px solid #aaa;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.jcdsbBox1 {
+	height: 55%;
+}
+.jcdsbBox2 {
+	height: 75%;
+}
+.jcdsbBox3{
+	height: 68%;
+}
+.jcdsbBox4{
+	height: 61%;
+}
+.zl99 {
+	height: 18%;
+}
+.jcdnameBox {
+	color: #222;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	padding-left: 6px;
+}
+.jcdsbBox .jbHeader {
+	border-bottom-color: #aaa;
+	color: #5d5d5d;
+	font-size: 17px;
+	padding: 0 6px 0 10px;
+}
+.jcdsbt table {
+	width: 100%;
+	border: none;
+}
+.jcdsbt table tr:first-child {
+	background-color: rgb(245, 248, 250);
+}
+
+.jcdsbt table tr {
+	border-color: #aaa;
+	border-right: none;
+}
+.jcdsbt table tr:last-child {
+	border-bottom: none;
+}
+.jcdsbt table tr td div {
+	font-size: 14px !important;
+}
+.jcdsbt table tr th,
+.jcdsbt table tr td {
+	border-left: 1px solid #999999;
+	color: #444;
+	padding: 4px 0;
+}
+.jcdsbt table tr th:first-child,
+.jcdsbt table tr td:first-child {
+	border-left: none;
+}
+.jbList {
+	height: 100%;
+}
+.sbtypeImg img {
+	width: 28px;
+	height: 28px;
+}
+
+.rowList .vvBox11 table tr td,
+.rowList .vvBox11 table tr th {
+	text-align: center !important;
+	font-size: 14px !important;
+	padding: 4px;
+}
+
+.rowList .ooBox11 table tr th,
+.rowList .ooBox11 table tr td {
+	text-align: center !important;
+	font-size: 14px !important;
+	padding: 4px;
+	border: none;
+	word-break: break-word; /* 文字换行 */
+}
+
+/* 右侧底部, 区域下警报信息总览 */
+.zl99,
+.zl99 .jbHeader {
+	border-color: #82befa;
+	color: #444;
+}
+.zl0 {
+	padding-left: 8px;
+	height: auto;
+	overflow: hidden;
+	height: 80%;
+	overflow-y: scroll;
+}
+.zl0::-webkit-scrollbar {
+	width: 5px;
+	height: 100%;
+	margin-top: 2px;
+	background-color: rgb(236, 238, 238);
+}
+.zl0::-webkit-scrollbar-thumb {
+	background: rgb(170, 170, 170);
+	border-radius: 2px;
+}
+.zl0::-webkit-scrollbar-track {
+	background: #f0f2f5;
+	border-radius: 2px;
+}
+.zl0::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 6px 6px;
+	height: 6px;
+}
+.zl0::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 6px 6px;
+	height: 6px;
+}
+
+.zl5 {
+	height: 20px;
+	margin-top: 6px;
+}
+.zl5 p {
+	font-size: 15px;
+	color: #61615F;
+	font-weight: 600;
+	line-height: 18px;
+	float: left;
+}
+.slnum0 {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	font-size: 15px;
+	height: 34px;
+	color: #111;
+	line-height: 35px;
+	white-space: nowrap;
+}
+.slnum0 img{
+	margin-right: 2px;
+}
+.zl3 {
+	font-size: 16px;
+	margin: 0 12px 0 3px;
+	color: #00B3CA;
+	width: 40px;
+}
+
+/* 左下角的天气预报 */
+#tq77 {
+	position: relative;
+	overflow: hidden;
+}
+.tq77Box {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	width: 100%;
+	height: 94px;
+	border: 1px solid #2478ff;
+	border-radius: 4px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.tqb00 {
+	position: absolute;
+	top: 0;
+	left: -3%;
+}
+/* 分辨率 < 1500 , 天气预报设置*/
+.tq77Box22 {
+	position: absolute;
+	bottom: 2px;
+	left: 3%;
+	width: 93%;
+	height: 64px;
+	border: 1px solid #2478ff;
+	border-radius: 4px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.tqb0022 {
+	position: absolute;
+	top: 0;
+	left: -46%;
+}
+
+/* 监测点详情,折线图 */
+.sbcszx55 {
+	width: 97%;
+	height: 200px;
+	margin: 0px 6px 4px 6px;
+	border: 1px solid #999;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.nosbcszx55 {
+	width: 97%;
+	margin: 0px 6px 4px 6px;
+	border: 1px solid #999;
+	padding-top: 10px;
+	overflow: hidden;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+	color: #222;
+}
+
+.sblineBox11 {
+	width: 62px;
+}
+.sblineBox33 {
+	width: 42px;
+}
+
+.jbListBox {
+	width: 100%;
+	padding: 2px 0 0 0;
+	height: 95%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.jbListBox21{
+	height: 93%;
+}
+.jbListBox22{
+	height: 95%;
+}
+.jbListBox23{
+	height: 94%;
+}
+.jbListBox24{
+	height: 94%;
+}
+
+/* 滚动条的样式 */
+.jbListBox::-webkit-scrollbar {
+	width: 6px !important;
+	overflow: hidden;
+	height: 100%;
+	margin-top: 2px;
+	background-color: rgb(236, 238, 238);
+}
+.jbListBox::-webkit-scrollbar-track {
+	background: #f0f2f5;
+	border-radius: 2px;
+}
+.jbListBox::-webkit-scrollbar-thumb {
+	background: rgb(170, 170, 170);
+	border-radius: 2px;
+}
+.jbListBox::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 6px 6px;
+	height:6px;
+}
+.jbListBox::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 6px 6px;
+	height: 6px;
+}
+
+/* dma信息 */
+.dxinxi44{
+	padding: 4px 8px;
+}
+.dxinxi44>div{
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 16px;
+	color: #222;
+	white-space: nowrap;
+}
+.dxinxi44 .wzlineh01{
+	height: 34px;
+}
+.dxinxi44 .wzlineh02{
+	height: 28px;
+}
+.dxinxi44 .wzlineh03{
+	height: 23px;
+	font-size: 15px;
+}
+.dxinxi44 div img{
+	width:20px;
+	height: 20px;
+	margin-right: 4px;
+}
+.dxinxi44 div p{
+	padding-right: 8px;
+}
+.dmaxxzs .el-tabs__content{
+	width: 100%;
+}
+.dmasj44{
+	width: 100%;
+	padding: 5px 0 0 0;
+	border-bottom: 1px solid #E4E7ED;
+}
+.dmasj44 .ksshijian{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 4px;
+}
+.dmasj44 .ksshijian>span{
+	font-size: 14px;
+	color: #222;
+	white-space: nowrap;
+	padding: 0 5px 0 10px;
+}
+.ksshijian .el-input--small .el-input__inner{
+	height: 28px;
+	line-height: 28px;
+}
+.dmasj44 .dmasjx{
+	line-height: 30px;
+	color: #222;
+}
+.dmasj44 .dmashijian{
+	width: 66%;
+}
+.yibiao44{
+	display: flex;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+.yibiao44>div{
+	width: 140px;
+}
+.dmaxxzs .rowList .el-tabs__item{
+	height: 32px;
+	line-height: 32px;
+}
+.zwsj{
+	color: #222;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.gqyBox{
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+}
+@media screen and (max-width: 1500px) {
+	.jcdsbBox,
+	.zl99 {
+		margin: 8px 0 0 0;
+		border-radius: 4px;
+	}
+	.zl99{
+		height: 17%;
+	}
+	.jcdnameBox {
+		font-size: 12px;
+		white-space: nowrap;
+		padding-left: 0;
+		line-height: 24px;
+		border-right: 1px solid #999;
+	}
+	.rowList .vvBox11 table tr td,
+	.rowList .vvBox11 table tr th {
+		font-size: 12px !important;
+	}
+	.rowList .ooBox11 table tr th,
+	.rowList .ooBox11 table tr td {
+		font-size: 12px !important;
+	}
+	.jcdsbt table tr td div{
+		font-size: 12px;
+	}
+	.sblineBox11 {
+		width: 48px;
+	}
+	.sblineBox33 {
+		width: 32px;
+	}
+	.slnum0{
+		font-size: 12px;
+		margin:0;
+		height: 16px;
+	}
+	.slnum0 img{
+		width: 12px;
+		height: 12px;
+	}
+	/* .slnum0 img:first-child{
+		width: 16px !important;
+		height: 14px !important;
+	} */
+	.zl5{
+		height: 18px;
+		margin-top: 4px;
+	}
+	.zl5 p{
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.leftsiteBox {
+		width: 350px;
+	}
+	#sbBox .jcdContent ul li {
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.facilityType{
+		font-size: 15px;
+		line-height: 16px;
+	}
+	.facilityType ul li {
+		padding: 2px 10px;
+	}
+	.jcdsbBox1,.jcdsbBox4{
+		height: 56%;
+	}
+	.jbListBox{
+		height:92%;
+	}
+	.jbListBox21,.jbListBox24{
+		height: 91%;
+	}
+	.jcdsbBox2{
+		height: 75%;
+	}
+	.jcdsbBox3{
+		height: 62%;
+	}
+	.zl3{
+		font-size: 13px;
+	}
+}
+

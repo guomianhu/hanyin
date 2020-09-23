@@ -1,0 +1,511 @@
+/* 新水厂样式 */
+#newBox33 .el-tabs__content {
+    position: absolute;
+    top: 0;
+	left: -142px;    
+	width: 115%;
+    height: 89%;
+}
+#scllc16 #newBox33 .el-tab-pane{
+	width: 100%;
+	height: 100%;
+	/* display: block;
+	z-index: -1;
+	overflow-x: scroll;
+	overflow-y: scroll; */
+}
+.newWater{
+	width: 1844px;
+	height: 891px;
+	overflow: hidden;
+}
+.newWater .newImg{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.newWater .newImg img{
+	width: 1624px;
+	margin-top: 48px;
+}
+.nImgText{
+	position: absolute;
+	top: 40px;
+	right: 420px;
+}
+.nitBox{
+	line-height: 22px;
+}
+.nitBox span:nth-child(1){
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+.nitBox span:nth-child(2){
+	display: inline-block;
+	width: 46px;
+	text-align: center;
+}
+.nRight{
+	width:924px;
+	height: 85px; 
+	margin-bottom: 20px;
+	color: #161E31;
+	font-size: 20px;
+	line-height: 27px;
+	margin-right: 35px;
+}
+.nRight>div>div{
+	display: inline-block;
+	width: 114px;
+	height: 27px;
+	line-height: 27px;
+	color: #fff;
+	font-size: 16px;
+	background: #740202;
+	margin-right: 10px;
+	padding: 0 8px;
+}
+.nRight>div>div p{
+	display: inline-block;
+	width: 84px;
+	text-align: center;
+}
+.nRight>div>div span{
+	float: right;
+}
+.nfoot{
+	width: 1840px;
+	height: 274px;
+	background-color: #FACD89;
+	border: 1px solid #615E5A;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.nfoot11{
+	border: 1px solid #303949;
+	width: 745px;
+	height: 268px;
+	background-color: #C8DEFF;
+	margin-left: 2px;
+}
+.nfoot12{
+	border: 1px solid #303949;
+	width: 320px;
+	height: 268px;
+	background-color: #D9F2FE;
+	margin: 0 2px 0 2px;
+}
+.nfoot13{
+	border: 1px solid #303949;
+	width: 761px;
+	height: 268px;
+	background-color: #C8DEFF;
+}
+.nfootH11{
+	width: 100%;
+	height: 52px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 1px solid #303949;
+}
+.nfootH11 p{
+	margin: 0 40px 0 16px;
+	color: #1A4E76;
+	font-size: 29px;
+}
+.nfootH00 .el-button{
+	color: #fff;
+	font-size: 19px;
+	border: 2px solid #fff;
+	width: 136px;
+	height: 40px;
+	padding: 0;
+}
+.nfootH00 .nbfirst11,
+.nfootH1200 .qiting11{
+	background-color: #112301;
+}
+.nfootH00 .nbfirst11:hover,
+.nfootH1200 .qiting11:hover{
+	background-color: #2f5f04;
+	border: none;
+}
+.nfootH00 .nbfirst12,
+.nfootH1200 .qiting12{
+	background-color:#731717;
+}
+.nfootH00 .nbfirst12:hover,
+.nfootH1200 .qiting12:hover{
+	background-color: #c02323;
+	border: none;
+}
+.nfcontent{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.yewai11{
+	display: flex;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 17px;
+	background-color: #731717;
+	width: 156px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 8px 0 11px;
+	margin-right: 5px;
+}
+.yewai12{
+	width: 211px;
+}
+.yewai11 p{
+	width: 55px;
+	text-align: center;
+}
+
+.nfootH12{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.nfootH12>div{
+	font-size: 29px;
+	color:#333;
+	margin: 0 19px 0 16px;
+}
+.nfootH1200 .el-button{
+	border: 4px solid #FACD89;
+	width: 101px;
+	height: 48px;
+	color: #fff;
+	font-size: 25px;
+	padding: 0;
+	margin-right: 10px;
+}
+.qingsc11{
+	position: absolute;
+	top: 6px;
+	right: 6px;
+}
+.qingsc12{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 14px;
+	color: #222;
+	font-size: 19px;
+}
+.qingsc13>div{
+	border: 1px solid #fff;
+	background-color: #731717;
+	color: #fff;
+	font-size: 15px;
+	width: 170px;
+	height: 28px;
+	margin:0 0 2px 6px;
+	display: flex;
+	align-items: center;
+	padding: 0 5px 0 10px;
+}
+.qingsc13>div p{
+	width: 62px;
+	text-align: center;
+}
+.qingsc13>div:first-child p{
+	width: 47px;
+	text-align: center;
+}
+.peids11{
+	color: #0B5182;
+	font-size: 19px;
+	line-height: 42px;
+	text-align: center;
+}
+.diany11{
+	padding: 0 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.diany11>div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #fff;
+	font-size: 15px;
+	padding: 0 8px;
+	background-color: #731717;
+	width: 130px;
+	height: 28px;
+	margin-bottom: 2px;
+}
+.diany11>div p{
+	width: 60px;
+	text-align: center;
+}
+.diany11>div:nth-child(2n) p{
+	width: 50px;
+	text-align: center;
+}
+.nsanh11{
+	width: 100%;
+	height: 52px;
+	border-bottom: 1px solid #303949;
+	color: #0E466E;
+	font-size: 29px;
+	line-height: 52px;
+	text-align: center;
+}
+.nsanh12{
+	width: 100%;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #111;
+	font-size: 17px;
+}
+.nsanh12>div{
+	width: 124px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #fff;
+	background-color: #731717;
+	color: #fff;
+	font-size: 15px;
+	padding: 0 10px;
+}
+.nsanh12>div>p{
+	width: 94px;
+	text-align: center;
+	display: inline-block;
+}
+.nsanh13{
+	padding: 0 12px 0 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.nsanh13>div{
+	display: flex;
+	align-items: center;
+	color: #111;
+	font-size: 15px;
+	margin-bottom: 2px;
+}
+.nsanh22{
+	border: 1px solid #fff;
+	color: #fff;
+	width: 86px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #731717;
+	padding: 0 6px;
+}
+.nsanh22 p{
+	width: 66px;
+	text-align: center;
+	display: inline-block;
+}
+
+/* 消毒设备 */
+.xiaodu11{
+	width: 1840px;
+	height: 280px;
+	border: 1px solid #333;
+	background-color:#FACD89 ;
+	display: flex;
+	margin-top: 24px;
+	overflow: hidden;
+}
+.xdsb11{
+	width: 919px;
+	/* overflow: hidden; */
+}
+.xdsbh11{
+	width: 100%;
+	height: 62px;
+	border-bottom: 1px solid #333;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 30px;
+}
+.xdsbh11 .xmlan{
+	font-size: 26px;
+	color: #731717;
+	display: inline-block;
+	padding-left: 36px;
+}
+.xdsbh11 p{
+	width: 100%;
+	padding: 0;
+	color: #731717;
+	font-size: 26px;
+	text-align: center;
+}
+.xdsbh12{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.youxiao99:first-child{
+	padding: 57px 20px 0 30px;
+}
+.youxiao99>div{
+	width: 222px;
+	height: 40px;
+	border: 2px solid #fff;
+	background-color: #731717;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #fff;
+	font-size: 17px;
+	margin-bottom: 13px;
+	padding-left: 10px;
+}
+.youxiao99>div p{
+	width: 80px;
+	text-align: center;
+}
+.youxiao88{
+	height: 216px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 18px;
+}
+.youxiao88 .el-button{
+	border: 4px solid #FFF;
+	width: 90px;
+	height: 46px;
+	font-size: 24px;
+	margin-right: 2px;
+	padding: 0;
+}
+.youxiao88>div{
+	color: #333;
+	font-size: 24px;
+}
+.youxiao9900{
+	margin:29px  0 0 0;
+}
+.youxiao9900>div p{
+	width: 98px;
+}
+
+.youxiao9900>div span{
+	display: inline-block;
+	padding-left: 10px;
+}
+.youxiao9900>div:first-child span{
+	padding-left:0;
+}
+.xdsbh13{
+	width: 100%;
+	height: 216px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.bjxmlan{
+	width: 638px;
+	height: 135px;
+	background-color: #62C9F6;
+	border: 2px solid #fff;
+}
+.yxlvBox{
+	position: absolute;
+	top: 240px;
+	left: 688px;
+	color: #3957D9;
+	font-size: 27px;
+	width: 218px;
+	height: 75px;
+	background-color: #D3F0FE;
+	padding: 6px 0 0 14px;
+}
+
+/* 进水配水池 */
+.jspschi{
+	width: 1842px;
+	height: 300px;
+	border: 1px solid #333;
+	background-color: #FEDBA8;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.jspschi>div{
+	border-right: 1px solid #333;
+}
+.jspschi>div:last-child{
+	border: none;
+}
+.jspschi>div .jsxsH11{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	color: #731717;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+.jsxsC11{
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 5px;
+	
+}
+.jsxsC11>div{
+	height: 210px;
+	background-color: #6ECDF8;
+	border: 1px solid #aaa;
+	padding: 6px 30px 10px 10px;
+	font-size: 17px;
+	line-height: 26px;
+}
+.jsxsC12{
+	height: 220px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding:12px 10px 16px 0;
+}
+.jsxsC12>div{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.jsxsC12>div>p{
+	width: 210px;
+	text-align: right;
+	color: rgb(6, 88, 122);
+	font-size: 17px;
+}
+.ssyx11{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin-left: 12px;
+	border: 2px solid #fff;
+}

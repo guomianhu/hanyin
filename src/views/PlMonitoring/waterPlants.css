@@ -1,0 +1,476 @@
+/* 水厂的弹出框内容 */
+
+#waterPlant {
+	position: fixed;
+	top: 55px;
+	left: 64px;
+	z-index: 999;
+	width:97%;
+	height: 1020px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.scdh18 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.shuchangwz {
+	width: 100%;
+	height: 50px;
+	background-color: #d2e7ff;
+	line-height: 50px;
+	position: relative;
+}
+.shuchangwzLine {
+	width: 3px;
+	height: 21px;
+	background-color: #324158;
+	font-size: 14px;
+	position: absolute;
+	top: 14px;
+	left: 0;
+	margin: 0 10px;
+}
+.shuchangwz .scgb16 {
+	position: absolute;
+	top: -3px;
+	right: 26px;
+	z-index: 22;
+}
+.shuchangwz p {
+	padding-left: 20px;
+	color: #222;
+	font-size: 20px;
+}
+
+/* 标签页,切换 */
+#scllc16 {
+	position: absolute;
+	top: 10px;
+	left: 70px;
+	z-index: 10;
+	width: 87%;
+	height: 100%;
+	margin-left: 4%;
+}
+#scllc16 .el-tabs{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/* 重要展示 */
+#scllc16 .el-tabs__content{
+	position: absolute;
+	top: 0;
+	left:-68px;
+	width: 105%;
+	height: 85%;
+	overflow: visible;
+}
+#scllc16 .el-tabs .el-tabs__header {
+	background-color: #D2E7FF;
+	width: 400px;
+}
+#scllc16 .el-tabs__active-bar{
+	height: 0;
+}
+.rowList #scllc16 .el-tabs__item {
+	border: 1px solid #448cff;
+	margin: 0px 5px;
+	height: 30px;
+	line-height: 26px;
+	padding: 0 16px;
+	border-radius: 4px;
+}
+#scllc16 .el-tabs__header .el-tabs__item.is-active {
+	font-size: 15px;
+	color: white;
+	background-color: #448cff;
+	border-bottom: none;
+}
+#scllc16 .el-tabs--card > .el-tabs__header .el-tabs__item:first-child {
+	border-left: 1px solid #448cff;
+}
+#scllc16  .el-tabs__nav {
+	width: 100%;
+}
+
+/* 视频 */
+#scllc16 .el-tab-pane{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#scllc16 .spjksc18{
+	position: absolute;
+	top: 0;
+	left: -50px;
+	width: 109%;
+	height: 95%;
+	overflow: hidden;
+	overflow-y: auto;
+	margin-top: 40px;
+}
+
+
+/* 水厂信息定位 ,图片 */
+.wpBox {
+	width: 1700px;
+	height: 950px;
+	position: relative;
+	margin-top: -30px;
+}
+.shuichangImg,
+.shuichangImg img {
+	width: 1700px;
+	height: 950px;
+}
+.wenziBoxCeng {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* 文字,顶部时间 */
+.timeTextBox {
+	margin-top: 105px;
+	padding-left: 70px;
+	position: relative;
+	width: 1550px;
+}
+.timeBox > div {
+	float: left;
+	font-size: 20px;
+	line-height: 47px;
+	color: #fff;
+}
+.timeBox .tsTime {
+	width: 43px;
+	text-align: center;
+	font-size: 38px;
+	padding: 0 2px;
+	text-shadow: .2rem 0rem .5rem red, -.2rem 0rem .5rem red, 0rem .2rem .5rem red, 0rem -.2rem .5rem red;
+}
+.timeBox .tsTimeN {
+	width: 86px;
+}
+.timeBox .tsTime2 {
+	padding: 0 7px;
+}
+.timeBox .tsTime24 {
+	padding-left: 22px;
+}
+.timeRi {
+	padding-right: 2px;
+	background-color: #360000;
+}
+.anquanBox {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.anquanBox > div {
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	line-height: 47px;
+}
+.anquanBox .tsTime {
+	width: 120px;
+	text-align: center;
+	font-size: 40px;
+	padding: 0 8px;
+	text-shadow: .2rem 0rem .5rem red, -.2rem 0rem .5rem red, 0rem .2rem .5rem red, 0rem -.2rem .5rem red;
+}
+.biaotiBox {
+	color: #ff2929;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 47px;
+}
+.biaotiBox span {
+	letter-spacing: 18px;
+	padding-left: 80px;
+}
+
+/* 文字中间部分 */
+.wzzjBox {
+	position: absolute;
+	top: 194px;
+	left: 70px;
+	line-height: 27px;
+	height: 27px;
+}
+.wzzjBox .dian {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	width: 142px;
+	margin-bottom: 18px;
+	padding-left: 8px;
+}
+.wzzjBox .dian .shuziBox {
+	float: right;
+	text-shadow: .2rem 0rem .5rem red, -.2rem 0rem .5rem red, 0rem .2rem .5rem red, 0rem -.2rem .5rem red;
+	color: #fff;
+	padding-left: 30px;
+	font-size: 24px;
+	padding-right: 4px;
+}
+.ztBox {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 8px;
+}
+.ztBox span:nth-child(2) {
+	padding-left: 38px;
+}
+.jiaBox {
+	position: absolute;
+	top: 83px;
+	left: 550px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+	width: 450px;
+}
+.jiaBox span:last-child {
+	padding-top: 6px;
+	padding-left: 330px;
+}
+.yaoBox,
+.lvBox {
+	position: absolute;
+	top: 200px;
+	left: 375px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	width: 100px;
+}
+.lvBox {
+	position: absolute;
+	top: 182px;
+	left: 540px;
+}
+.yuanshui,
+.shuiguan,
+.dn,
+.hao1,
+.hao2,
+.liu,
+.xnchi,
+.chaoyu {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+}
+.yuanshui {
+	position: absolute;
+	top: 274px;
+	left: -2px;
+	font-size: 16px;
+}
+.shuiguan {
+	position: absolute;
+	top: 284px;
+	left: 74px;
+}
+.hao2 {
+	position: absolute;
+	top: 272px;
+	left: 154px;
+	width: 40px;
+	letter-spacing: 3px;
+	line-height: 18px;
+}
+.hao2 .jinhao {
+	position: absolute;
+	top: -6px;
+	left: 6px;
+	font-size: 12px;
+}
+.dn {
+	position: absolute;
+	top: 320px;
+	left: 20px;
+	font-size: 15px;
+}
+.hao1 {
+	position: absolute;
+	top: 356px;
+	left: 80px;
+}
+.hao1 span:nth-child(1) {
+	padding-right: 4px;
+}
+.hao1 .jinhao {
+	position: absolute;
+	top: -6px;
+	left: 6px;
+	font-size: 12px;
+}
+.chaoyu {
+	position: absolute;
+	top: 450px;
+	left: 150px;
+	width: 100px;
+}
+.xnchi {
+	position: absolute;
+	top: 474px;
+	left: 230px;
+	font-size: 16px;
+	width: 100px;
+}
+.liu {
+	position: absolute;
+	top: 518px;
+	left: 140px;
+	width: 210px;
+	line-height: 23px;
+}
+.liu > div {
+	float: left;
+}
+.liu .shuziBox {
+	text-shadow: .2rem 0rem .5rem red, -.2rem 0rem .5rem red, 0rem .2rem .5rem red, 0rem -.2rem .5rem red;
+	color: #fff;
+	font-size: 22px;
+	width: 110px;
+	margin-right: 22px;
+	text-align: right;
+}
+.zhuo {
+	position: absolute;
+	top: 565px;
+	left: 140px;
+}
+.dubuBox {
+	position: absolute;
+	top: 630px;
+	left: 160px;
+	font-size: 17px;
+	width: 1000px;
+	font-weight: 600;
+	color: #000;
+}
+.dubuBox span:nth-child(1) {
+	padding-right: 70px;
+}
+.dubuBox span:nth-child(2) {
+	padding-right: 70px;
+}
+.dubuBox span:nth-child(3) {
+	padding-right: 140px;
+}
+.dubuBox span:nth-child(4) {
+	padding-right: 140px;
+}
+
+/* right */
+.rightBox {
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	width: 300px;
+	position: absolute;
+	top: 400px;
+	right: -20px;
+}
+.dnBox {
+	position: absolute;
+	top: 100px;
+	left: 2px;
+}
+.cqBox {
+	position: absolute;
+	top: 130px;
+	right: -20px;
+}
+.dccllj {
+	position: absolute;
+	top: 130px;
+	left: 0;
+}
+.qsbBox {
+	position: absolute;
+	top: 190px;
+	left: 20px;
+}
+.sghz1 {
+	position: absolute;
+	top: 90px;
+	right: -6px;
+}
+.sghz1 .sgBox1 {
+	color: #fff;
+	text-shadow: .2rem 0rem .5rem red, -.2rem 0rem .5rem red, 0rem .2rem .5rem red, 0rem -.2rem .5rem red;
+	font-size: 21px;
+	width: 73px;
+	text-align: right;
+	position: absolute;
+	top: -8px;
+	right: 29px;
+}
+.sghz2 {
+	position: absolute;
+	top: 156px;
+	right: -6px;
+}
+.yulv {
+	position: absolute;
+	top: 272px;
+	left: 26px;
+}
+.llBox11 {
+	position: absolute;
+	top: 318px;
+	left: 26px;
+}
+.zdBox11 {
+	position: absolute;
+	top: 364px;
+	left: 26px;
+}
+.hao11 {
+	position: absolute;
+	top: 172px;
+	left: 20px;
+}
+.hao11 .haojing11 {
+	position: absolute;
+	top: -5px;
+	left: 6px;
+}
+.hao22 {
+	position: absolute;
+	top: 172px;
+	left: 50px;
+}
+.hr31 {
+	position: absolute;
+	top: 90px;
+	left: 166px;
+	letter-spacing: 4px;
+}
+.hr32 {
+	position: absolute;
+	top: 154px;
+	left: 166px;
+	letter-spacing: 4px;
+}
+
+@media screen and (max-width: 1500px) {
+	#waterPlant{
+		top: 45px;
+	}
+	.shuchangwz .scgb16{
+		right: 32px;
+	}
+}

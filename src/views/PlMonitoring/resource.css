@@ -1,0 +1,307 @@
+/* 水源地信息 */
+.sydbox {
+	position: fixed;
+	top: 55px;
+	left: 64px;
+	width: 98%;
+	height: 94%;
+	background-color: white;
+	z-index: 999;
+}
+.sudxxb {
+	width: 100%;
+	background-color: white;
+	height: 100%;
+}
+.syd-top {
+	background-color:#E8F1FF;
+	height: 65px;
+	line-height: 65px;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+}
+.syd-top > p {
+	font-size: 20px;
+	padding-left: 32px;
+	display: inline-block;
+}
+.el-tabs__header is-top{
+	position: relative;
+    left: 20%;
+}
+.el-tab-pane {
+	width: 100%;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+	border:none;
+}
+.tableFlexBox {
+	width: 99%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin:10px;
+	overflow: hidden;
+	height: 247px;
+}
+.actable {
+	width: 43%;
+	margin-right: 10px;
+}
+.rowList table tr th,
+.rowList table tr td {
+	text-align: left !important;
+	border: 1px solid rgb(112, 195, 255);
+	padding: 10px 10px;
+	font-size: 16px;
+}
+.tableCom {
+	background-color: #E8F1FF;
+	padding: 0 0 0 20px;
+	font-size: 15px;
+	color: #444;
+	line-height: 41px;
+	border-bottom: 1px solid #aaa;
+	position: relative;
+}
+.el-tabs--card>.el-tabs__header{
+	border:none;
+}
+.rowList .sydbox .el-tabs .el-tabs__header {
+	background-color: #E8F1FF;
+	position: absolute;
+  left: 10%;
+	top: 0;
+	width: 750px; 
+}
+.rigtab {
+	width: 56%;
+	height: 245px;
+	border:1px solid #999;
+	color:#555;
+	overflow: hidden;
+}
+.tabzong{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	line-height: 41px;
+}
+.tsbs{
+	padding: 0px  0  0 30px;
+	width: 35%;
+}
+.tsba{
+	padding: 0px 0px 0 30px;
+	border-left: 1px solid #999;
+}
+.zhexianBox66{
+	width: 98%;
+	border: 1px solid #999;
+	margin:0 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	height: 539px;
+}
+.selzhe {
+	background-color:#E8F1FF;
+	height: 50px;
+	line-height: 45px;
+	padding-left: 10px;
+	width: 100%;
+	position: relative;
+}
+.zhexianBox66 .zxsjhz{
+	width: 1800px;
+	margin: 10px 0 0 0;
+	height: 450px;
+}
+.el-tabs__item is-top {
+	border: 1px soild white;
+}
+.selopta {
+	height: 30px;
+	width: 120px;
+	border-radius: 3px;
+	margin: 0 20px;
+}
+element.style {
+	transform: translateX(0px);
+}
+.elque {
+	margin-left: 10px;
+}
+.rowList .sydbox .el-tabs__header .el-tabs__item.is-active{
+ font-size: 15px;
+ color:white;
+ background-color: #448CFF;
+ margin: 0px  5px;
+ border-bottom: none;
+}
+.sydbox .el-tabs--card>.el-tabs__header .el-tabs__item:first-child {
+border-left: 1px solid #448CFF;
+}
+.sydbox .el-tabs--card>.el-tabs__header .el-tabs__item {
+	border:1px solid #448CFF;
+	margin: 0px 5px;
+	height: 32px;
+	line-height: 30px;
+	border-radius: 4px;
+}
+.rowList .sydbox .el-tabs__item {
+	border:1px solid #448CFF;
+}
+.rowList .sydbox .el-tabs__nav{
+  width: 100%;
+}
+.sydbox .el-tabs--top .el-tabs__item.is-top .el-tabs__item is-top is-active{
+	padding: 10px 0 0 0;
+	border:1px solid #448CFF;
+}
+.shuiyuanbox {
+	margin: 10px 0 0 230px;
+}
+.shuiyuanbox img {
+	width: 680px;
+}
+.imgshiji {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:99%;
+	margin: 10px;
+}
+.imgshiji img {
+	width: 490px;
+	height: 359px;
+	margin: 6px;
+}
+/* 监控视频 */
+.containera{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.player{
+	float: left;
+	width: 19%;
+	border: 1px solid #aaa;
+	position: relative;
+	margin: 0 1px 1px 0;
+}
+.player .namedw19{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	line-height: 30px;
+	padding-left: 6px;
+	font-size: 14px;
+	color: rgb(211, 6, 6);
+}
+.player .video-js .vjs-big-play-button{
+	width: 2em;
+}
+.closeBoxsyd{
+	position: absolute;
+	top: 16px;
+	right:36px;
+	z-index: 2;
+}
+.closeBoxsyd .el-button{
+	margin-left: 0;
+	padding: 9px 12px;
+}
+.tianqi{
+	position: absolute;
+	top: -4px;
+	right:180px;
+	height: 56px;
+	z-index: 2;
+	font-size: 13px;
+}
+.tqsj{
+  display: inline-block;
+	line-height: 60px;
+  margin: 0 12px;
+}
+.rowList table tr .tableCom11{
+	text-align: left !important;
+	color: #444;
+	padding-left: 20px;
+}
+.kongzhiLine{
+	width: 3px;
+	height: 22px;
+	background-color: #324158;
+	position: absolute;
+	top: 21px;
+	left: 0;
+	margin: 0 0 0 20px;
+}
+.kongzhiLine11{
+	position: absolute;
+	top: 12px;
+	left: -10px;
+	height: 16px;
+}
+
+.kongzhiLine33{
+	position: absolute;
+	top: 281px;
+	left: 0;
+	margin-right: 20px;
+}
+.el-tabs__content{
+	width: 99%;
+}
+
+
+
+@media screen and (max-width: 1500px){
+	.sydbox{
+		top:45px;
+	}
+	.zhexianBox66 .zxsjhz{
+		width: 1281px;
+		height: 349px;
+	}
+	.zhexianBox66{
+		height: 408px;
+	}
+	.tableCom{
+		line-height: 36px;
+	}
+	.tabzong{
+		line-height: 37px;
+	}
+	.rigtab{
+		height: 222px;
+	}
+	.tableFlexBox{
+		height: 224px;
+	}
+	.tianqi{
+		right:187px;
+	}
+	.closeBoxsyd{
+		position: absolute;
+		top: 16px;
+		right:47px;
+		z-index: 2;
+	}
+	.rowList .sydbox .el-tabs .el-tabs__header{
+		left:12%;
+	}
+	.actable{
+		width: 60%;
+	}
+	.imgshiji{
+		margin:0;
+	}
+	.imgshiji img{
+		width: 429px;
+		height: 305px;
+	}
+}

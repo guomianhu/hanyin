@@ -1,0 +1,605 @@
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.rowList {
+	background-color: #fff;
+	height: 98%;
+	margin-top: 4px;
+}
+.el-row {
+	height: 100%;
+}
+.el-row .el-col {
+	height: 100%;
+}
+/* 区域树 */
+.colShu {
+	height: 100%;
+}
+.addressShu {
+	margin: 0 5px;
+	border: 2px solid #eee;
+	box-shadow: 0 0 5px 1px #eee;
+	height: 100%;
+	background-color: #fff;
+}
+.quyu {
+	font-size: 17px;
+	color: #fff;
+	padding-left: 8px;
+	line-height: 40px;
+	background-color: #409EFF;
+}
+.subsidiaryTree .el-aside {
+	width: 100% !important;
+	height: 100%;
+}
+.subsidiaryTree .el-card {
+	border: none;
+	font-size: 18px;
+	font-weight: 100;
+	background-color: #fff;
+	height: 100%;
+}
+.el-card__body {
+	padding: 10px 0 0 0 !important;
+	height: 100%;
+}
+.el-tree-node__content:hover {
+	background-color: #b4e9fc;
+}
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+	background-color: rgb(197, 227, 241);
+	color: rgb(20, 4, 253);
+	font-weight: 600;
+}
+
+/* 中间地图 */
+.amap {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #edeae3;
+	border-radius: 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+.amapWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	height: 100%;
+}
+.ceshi {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: #0006fd;
+	color: #fff;
+}
+.guanWang {
+	width: 95%;
+	height: auto;
+	box-sizing: border-box;
+	border: 2px solid #eee;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+/* 地图顶部的地址和查询 */
+.address {
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #409eff;
+	background-color: #fff;
+	line-height: 36px;
+	text-align: left;
+	color: #222;
+	font-size: 16px;
+	box-sizing: border-box;
+	height: 40px;
+	overflow: hidden;
+}
+.address .addText {
+	padding-left: 10px;
+	width: 521px;
+	overflow: hidden;
+	white-space: nowrap;
+	float: left;
+	font-weight: 600;
+	text-align: left;
+}
+.addressSearch {
+	float: right;
+	padding-right: 10px;
+}
+.addressSearch input {
+	line-height: 20px;
+	width: 350px;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid rgb(196, 196, 196);
+	padding-left: 6px;
+	background-color: rgb(250, 246, 246);
+	float: left;
+	margin-top: 2px;
+	box-shadow: 1px 1px 1px 1px #eee;
+	font-size: 18px;
+	line-height: 30px;
+}
+.searchButton {
+	color: #fff;
+	background-color: #409eff;
+	box-shadow: 1px 1px 1px 1px #eee;
+	text-align: center;
+	width: 48px;
+	height: 30px;
+	border: 0;
+	border-radius: 4px;
+	float: left;
+	margin: 2px 0 0 2px;
+}
+
+/* 警报列表 */
+.jingbao {
+	width: 97%;
+	height: 100%;
+}
+.jbBox {
+	margin: 0 5px 0 5px;
+	border: 1px solid #ff7474;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.jbBox11{
+	height: 24%;
+}
+.jbHeader {
+	border-bottom: 1px solid #ff7474;
+	line-height: 26px;
+	position: relative;
+	color: #000;
+}
+.jbHeader .xianBox{
+	position: absolute;
+	top:7px;
+	left: 8px;
+	height: 15px;
+	width: 3px;
+	background-color: #666;
+	border-radius: 4px;
+}
+.jbMore {
+	float: right;
+	color: #0006fd;
+	text-decoration: underline;
+	padding-right: 10px;
+	font-size: 16px;
+	cursor:pointer
+}
+
+.jbShow {
+	display: flex;
+	flex-direction: row;
+	width: 94%;
+	height: 48px;
+	padding: 2px;
+	border: 1px solid #fdb9a6;
+	margin:2px 0 3px 5px;
+	border-radius: 8px;
+	background-color: #fbffd9;
+}
+.jbShow img {
+	width: 20px;
+	height: 21px;
+	padding-right: 5px;
+	margin-top: 14px;
+}
+.jbShowText {
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+	overflow: hidden;
+	width: 100%;
+}
+.jbShowState {
+	color: green;
+	text-decoration: underline;
+	float: right;
+}
+.jbShowText span {
+	float: right;
+}
+.alarText {
+	display: block;
+	width: 55%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.jbShowText > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 97%;
+}
+.jcddImg {
+	width: 90px;
+	height: 84px;
+}
+.markersText,
+.markersTextBj {
+	position: absolute;
+	top: 0.2px;
+	left: 1.2px;
+	zoom: 11;
+	width: 5.8px;
+	height: 5px;
+	overflow: hidden;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.1px;
+	padding-top: 0.4px;
+	font-size: 1px;
+	color: #000;
+	z-index: 111;
+}
+.markersTextBj {
+	background-color: #fff;
+}
+.markersText .markerstextName {
+	padding-top: 0.8px;
+	width: 5.8px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.promptText {
+	position: absolute;
+	top: 0px;
+	right: -12px;
+	border: 1px solid #aaa;
+	background-color: #eee;
+	box-shadow: 0 0 1px 2px #eee;
+	color: #00f;
+	line-height: 15px;
+	padding: 4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.wzImg{
+	width: 36px;
+	height: 36px;
+}
+.djbImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 42px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.djbImg img {
+	width: 18px;
+	height: 18px;
+}
+
+/* 左侧公司 */
+.subsidiaryTree {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	height: 100%;
+	background-color: #fff !important;
+}
+.shuName:hover {
+	background-color: #aaa;
+}
+.childShu {
+	background-color: #ccc;
+	display: flex;
+	flex-direction: row;
+	line-height: 32px;
+	font-size: 15px;
+}
+.childList {
+	height: auto;
+	overflow: hidden;
+	max-height: 730px;
+	overflow-y: scroll;
+}
+.shuImg {
+	width: 32px;
+	height: 32px;
+	margin-right: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.shuImg img {
+	width: 24px;
+	height: 24px;
+}
+.el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+	color: #0006fd;
+}
+.el-tree-node__content {
+	height: 32px;
+	color: #000;
+}
+
+/* 走马灯 */
+.amap .amap-marker {
+	background-color: transparent;
+}
+.yanBox {
+	position: relative;
+	width: 90px;
+	height: 84px;
+}
+.yanBox .el-carousel__indicators,
+.yanBox .el-carousel__indicators--outside {
+	display: none !important;
+}
+.yanBox .el-carousel .el-carousel__arrow {
+	display: none !important;
+}
+.yanBox .el-carousel {
+	overflow: hidden;
+	position: absolute;
+	width: 90px;
+	height: 84px;
+	overflow: hidden;
+	text-align: center;
+	z-index: 100;
+}
+.yanBox .el-carousel__container {
+	position: relative;
+	height: 84px !important;
+}
+
+.yanBox .el-carousel__item,
+.yanBox .is-animating {
+	height: 84px !important;
+}
+
+.el-carousel .el-carousel__indicators {
+	display: none !important;
+}
+
+/* 地图标识的定位 */
+.amapBox {
+	position: relative;
+}
+.amapBs {padding: 0 10px!important;
+	position: absolute;
+	bottom: 0px;
+	right: 22px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 4px;
+	height: 30px;
+	border: 2px solid rgb(201, 200, 200);
+	overflow: hidden;
+	white-space: nowrap;z-index: 4;
+}
+.mapText {
+	color: rgb(7, 7, 7);
+	font-weight: 600;
+	padding: 0 0 0 4px;
+	font-size: 14px;
+}
+.amapIcon {
+	float: left;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.amapIcon img {
+	width: 18px;
+	height: 20px;
+	float: left;
+	padding: 3px 0 0 4px;
+	vertical-align: middle;
+}
+.amapIcon p {
+	padding: 0 0 0 2px;
+	font-size: 13px;
+}
+.amapIcon:last-child span{
+	display: none;
+}
+/* 左边区域树 */
+.bsimgBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+.bsimgBox img {
+	width: 19px;
+	height: 21px;
+	margin-top: 10px;
+}
+.bsimgBox span {
+	margin-left: 10px;
+	line-height: 40px;
+}
+.nodelTxet1 {
+	font-size: 16px;
+	color: #000;
+}
+.nodelTxet2 {
+	font-size: 15px;
+	color: #000;
+}
+.nodelTxet3{
+	font-size: 14px;
+}
+
+/* 地图高度, 当侧边栏收缩时,会有高度的有样式问题 
+	侧边栏固定,高度以百分比来实现
+*/
+.el-row .amapBox {
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+/* 区域列表滚动条 */
+#qygdt{
+	height: 95%;
+}
+#qygdt>.el-tree-node.is-expanded{
+	height: 100%;
+}
+#qygdt>.el-tree-node.is-expanded>.el-tree-node__children{
+	max-height: 82%;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1500px){
+	.jbBox {
+		margin: 0;
+	}
+	.quyu{
+		font-size: 14px;
+	}
+	.bsimgBox span {
+		font-size: 14px;
+		margin-left: 4px;
+	}
+	.bsimgBox img{
+		width: 12px;
+		height: 15px;
+	}
+	.el-tree-node__content>.el-tree-node__expand-icon{
+		padding: 2px;
+	}
+	.el-tree-node__content{
+		height: 28px;
+	}
+	.jbShow {
+		height: 80px;
+	}
+	.jbShowText{
+		line-height: 20px;
+	}
+	.jbShow img{
+		padding-right: 10px;
+		margin-top: 21px;
+	}
+	.jbShowText > div {
+		display: block;
+	}
+	.jbShowState{
+		float: left;
+	}
+	.alarText{
+		width: 100%;
+	}
+	.sbBox table tbody {
+		max-height: 300px;
+	}
+	.facilityType {
+		font-size: 14px;
+	}
+	.jbHeader {
+		line-height: 30px;
+	}
+	.rowList .el-tabs__item {
+		height: 32px;
+		line-height: 32px;
+	}
+	.facilityType ul li {
+		padding: 4px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.quyu{
+		font-size: 12px;
+	}
+	.bsimgBox span {
+		font-size: 12px;
+		margin-left: 4px;
+	}
+	.bsimgBox img{
+		width: 10px;
+		height: 12px;
+	}
+	.el-tree-node__content>.el-tree-node__expand-icon{
+		padding: 2px;
+	}
+	.el-tree-node__content{
+		height: 26px;
+	}
+	.bsimgBox span {
+		font-size: 12px;
+	}
+	.jbShow {
+		height: 80px;
+	}
+	.jbShowText{
+		line-height: 20px;
+	}
+	.jbShow img{
+		padding-right: 10px;
+		margin-top: 21px;
+	}
+	.jbShowText > div {
+		display: block;
+	}
+	.jbShowState{
+		float: left;
+	}
+	.alarText{
+		width: 100%;
+	}
+	.sbBox table tbody {
+		max-height: 180px;
+	}
+	.facilityType {
+		font-size: 13px;
+	}
+	.jbHeader {
+		line-height: 26px;
+	}
+	.rowList .el-tabs__item {
+		height: 28px;
+		line-height: 28px;
+	}
+	.facilityType ul li {
+		padding: 2px;
+	}
+	.el-card__body {
+		padding: 10px 0 0 0 !important;
+	}
+	.el-tree-node__content > .el-tree-node__expand-icon {
+		padding: 2px;
+	}
+	.nodelTxet1 {
+		font-size: 14px;
+	}
+	.nodelTxet2 {
+		font-size: 13px;
+	}
+	.nodelTxet3 {
+		font-size: 12px;
+	}
+}

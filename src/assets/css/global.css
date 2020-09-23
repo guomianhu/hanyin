@@ -1,0 +1,81 @@
+
+* { margin: 0; padding: 0;}
+body,form,input{ margin: 0px; padding: 0px; border:0; font-size: 14px; font-weight: normal; font-family:"Microsoft Yahei"; color:#333;}
+ul,ol,li { list-style: none; list-style-type:none; margin:0; padding:0px;}
+p,div,a,h1,h2,h3,h4,h5,h6,span,ul,li,img,form,input,br,dl,dt,dd{ padding:0; margin:0;}
+img {border-style:none; border:0; padding:0; margin:0;}
+a{color:#000; text-decoration:none;}
+a:hover{ text-decoration:none;}
+.clear{ clear:both; height:0; display:block;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+em,i,samp,b{ font-style:normal;font-weight: normal; font-family:"Microsoft Yahei";}
+
+.fix{*zoom:1;}
+.fix:after{content:""; display:block; clear:both;}
+html { -webkit-text-size-adjust:none;}
+body {width: 100%;overflow-x:hidden;overflow-y:auto;}
+html, body { width: 100%;}
+
+input::-webkit-input-placeholder {color:#ccc;}
+.left{ float:left;}
+.right{ float:right;}
+html,body{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}/*解决移动端点击时出现半透明的灰色背景*/
+
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+background-color: #f8f8f8;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background: #fff ;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color:#999;
+}
+::-webkit-scrollbar-thumb:hover {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color:#666;
+}
+
+.mtop5{margin-top: 5px;}
+.mtop10{margin-top: 10px;}
+.mtop15{margin-top: 15px;}
+.mtop20{margin-top: 20px;}
+.mtop25{margin-top: 25px;}
+.mtop30{margin-top: 30px;}
+
+.ant-tabs-nav .ant-tabs-tab,.ant-tabs .ant-tabs-top-content > .ant-tabs-tabpane, .ant-tabs .ant-tabs-bottom-content > .ant-tabs-tabpane{color: #fff;}
+:root .ant-tabs-tab-prev-icon-target, :root .ant-tabs-tab-next-icon-target {font-size: 20px!important;color: #fff;}
+
+.gycenbox .ant-tabs-bar{border-bottom: 0;}
+.gycenbox .ant-tabs-nav-wrap{margin-bottom: 0;}
+.gycenbox .ant-tabs-nav .ant-tabs-tab{border:1px solid #e4fdff!important;border-radius: 4px;padding: 5px 15px;color: #e4fdff;margin: 0 15px 0 0;font-size: 18px;}
+.gycenbox .ant-tabs-nav .ant-tabs-tab-active{background: #2085ff;border:1px solid #2085ff!important;}
+.gycenbox .ant-tabs-nav .ant-tabs-tab-active:hover{color: #fff;}
+.gycenbox .ant-tabs-nav .ant-tabs-tab-active::before{display: none;}
+.morebq .ivu-menu-submenu-title{width: 104px!important;color: #fff!important;}
+.morebq .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover{background: #c5d1df;}
+.morebq .ivu-select-dropdown{padding: 0;margin: 0;}
+
+.scdtable .ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr > td{background: #fff;text-align: center;}
+
+.newsbox .ant-tabs-nav .ant-tabs-tab, .ant-tabs .ant-tabs-top-content > .ant-tabs-tabpane, .ant-tabs .ant-tabs-bottom-content > .ant-tabs-tabpane{color: #333;}
+.newsbox .ant-tabs-nav .ant-tabs-tab-active{color: #1890ff;}
+
+.masked{
+  	  background-image: -webkit-linear-gradient(left, #02eeff, #E6D205 25%, #fff 50%, #E6D205 75%, #fff);
+  	  -webkit-text-fill-color: transparent;
+  	  -webkit-background-clip: text;
+  	  -webkit-background-size: 200% 100%;
+  	  -webkit-animation: masked-animation 4s infinite linear;
+    }
+@-webkit-keyframes masked-animation {
+0%  { background-position: 0 0;}
+100% { background-position: -100% 0;}
+}
+  
+video{width: 100%;height: 100%;display: block;object-fit: fill!important;cursor: pointer;}

@@ -1,0 +1,365 @@
+/* 小区 */
+.xiaoqulou {
+	background-color: white;
+	position: fixed;
+	width: 98%;
+	top: 45px;
+	left: 54px;
+	z-index: 192;
+	margin: 10px 10px;
+	line-height: 25px;
+	height: 94% !important;
+}
+.xiaoqulou .el-tree-node__content {
+	height: 25px;
+}
+.xqxx {
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 200;
+	display: inline-block;
+	margin-right:12px;
+	width: 100px;
+}
+.loucoa > span {
+	margin-left: 15px;
+	font-size: 15px;
+	margin-bottom: 25px;
+	line-height: 40px;
+	color: #333;
+}
+.xianhe {
+	width: 4px;
+	height: 22px;
+	background-color: #324158;
+	margin-left: 45px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.gxiab {
+	width: 3px;
+	height: 18px;
+	background-color: #324158;
+	font-size: 14px;
+	position: absolute;
+	top: 11px;
+	left: 0;
+	margin: 0 10px;
+}
+.xiaoqultop {
+	background-color: #d2e7ff;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	line-height: 50px;
+	position: relative;
+}
+.xiaoqultop .gxiab16{
+	width: 3px;
+	height: 20px;
+	background-color: #324158;
+	font-size: 14px;
+	position: absolute;
+	top: 14px;
+	left: 0;
+	margin: 0 10px;
+}
+.xiaoqultop .demo-form-inline .el-input--small .el-input__inner {
+	width: 170px;
+	margin: 0px 5px;
+	border-color: rgb(6, 150, 247);
+}
+.xiaoqultop .el-button--mini,
+.xiaoqultop .el-button--small {
+	margin-top: 10px;
+	height: 31px;
+}
+.xqxqbox {
+	height: 93%;
+}
+.liebright > span {
+	margin: 20px 20px;
+	line-height: 50px;
+}
+.xiaoqugb {
+	position: absolute;
+	right: 60px;
+	top: 10px;
+	background-color: rgb(219, 236, 252);
+	border: 1px solid rgb(6, 150, 247);
+	color: #222;
+	height: 25px;
+	line-height: 26px;
+	width: 50px;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+}
+.xiaoquimg {
+	margin: 20px 10px;
+}
+.louimgd {
+	background-color: white;
+	position: fixed;
+	top: 55px;
+	left: 64px;
+	width: 100%;
+	height: 100%;
+	z-index: 392;
+}
+.louimgd > p {
+	background-color: #f1f1f1;
+	line-height: 50px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.louleftcon {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 10px;
+}
+.loucoa {
+	width: 20%;
+	height: 99%;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+.loulr {
+	background-color: #d2e7ff;
+	font-size: 18px;
+	line-height: 40px;
+	padding-left: 22px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.xqlfzdh {
+	padding: 4px 10px;
+	border-bottom: 1px solid #999;
+}
+.xqlfzdh span {
+	margin-right: 20px;
+	font-size: 15px;
+}
+.lourzong {
+	margin-left: 30px;
+	font-size: 18px;
+}
+.mbxgl {
+	margin-top: 13px;
+	font-size: 15px;
+	color: black;
+	margin-left: 50px;
+}
+.xiaoqulou .louleftcon {
+	height: 100%;
+}
+.louleftcon .el-tree {
+	position: relative;
+	cursor: default;
+	background: #fff;
+	color: #606266;
+	height: 91%;
+	overflow: hidden;
+	display: block;
+	overflow-y: scroll;
+}
+
+.louleftcon .el-tree::-webkit-scrollbar {
+	width: 6px;
+} 
+.louleftcon .el-tree::-webkit-scrollbar-track {
+	background-color: rgb(250, 250, 250);
+}
+.louleftcon .el-tree::-webkit-scrollbar-thumb {
+	background-color: #cccccc;
+}
+.louleftcon .el-tree::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 6px 6px;
+	height:7px;
+}
+.louleftcon .el-tree::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 6px 6px;
+	height: 7px;
+} 
+.louleftcon .el-tree-node__label {
+	font-size: 16px;
+}
+.liebright {
+	width: 77%;
+	height: 99%;
+	border: 1px solid #999;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.liebright .el-table--scrollable-x .el-table__body-wrapper{
+	overflow-x: hidden;
+}
+
+.xiaoqulou .rowList table{
+	width: 100% !important;
+}
+.el-table__header-wrapper{
+	width: calc(101% - 6px) !important;
+}
+.el-table--scrollable-y .el-table__body-wrapper::-webkit-scrollbar {
+	width: 8px;
+} 
+.el-table--scrollable-y .el-table__body-wrapper::-webkit-scrollbar-track {
+	background-color: rgb(250, 250, 250);
+}
+.el-table--scrollable-y .el-table__body-wrapper::-webkit-scrollbar-thumb {
+	background-color: #cccccc;
+}
+.el-table--scrollable-y .el-table__body-wrapper::-webkit-scrollbar-button:start {
+	background: url(../../../static/img/sup.png) no-repeat;
+	background-size: 7px 7px;
+	height:8px;
+}
+.el-table--scrollable-y .el-table__body-wrapper::-webkit-scrollbar-button:end {
+	background: url(../../../static/img/sdown.gif) no-repeat;
+	background-size: 7px 7px;
+	height: 8px;
+} 
+.tableyonghu{
+	border-bottom: 1px solid #999;
+}
+.tableyonghu .rowList table tr th,
+.rowList table tr td {
+	text-align: center !important;
+	border-color: #d6d4d4;
+}
+.rowList table tr th,
+.rowList table tr td {
+	text-align: center !important;
+	border-color: #bebdbd !important;
+	padding: 10px 0;
+}
+.liebright .has-gutter tr:hover{
+	background-color: #E5F4FD;
+}
+.liebright .has-gutter tr th {
+	background-color: #F5F7F8;
+	border-right: 1px solid#bebdbd !important;
+}
+.liebright .el-breadcrumb__inner {
+	font-size: 18px;
+	color: #333;
+}
+.liebright .el-table--scrollable-y .el-table__body-wrapper{
+	height: 94%;
+}
+.xiaoqulou .closeBoxB{
+	position: absolute;
+    top: 6PX;
+    right: 26px;
+    z-index: 2;
+}
+.xiaoqultop .el-date-editor.el-input{
+	width: 180px;
+}
+.xiaoqultop .el-input--prefix .el-input__inner{
+	padding-left: 21px;
+}
+.xiaoqultop .el-input--suffix .el-input__inner{
+	padding-right: 21px;
+}
+.tishicx{
+	color: #C23531;
+	font-size: 15px;
+	line-height: 50px;
+	display: inline-block;
+}
+/* 修改 */
+.closeBoxxq{
+	position: absolute;
+	top: 9px;
+	right:35px;
+	z-index: 2;
+}
+.closeBoxxq #closeBox11{
+	margin-left: 0;
+	padding: 9px 12px;
+}
+.xiaoqulou11 .el-table .cell{
+	line-height: 15px;
+	color: #222;
+}
+.rowList .xiaoqulou11  table tr th,
+.rowList .xiaoqulou11  table tr td{
+	font-size: 15px;
+}
+/* 用水分析 */
+.yongshuizxt11{
+	width: 100%;
+	height: 40%;
+	display: flex;
+}
+.shujutongji11{
+	width: 15%;
+	height:100%;
+	border-right: 1px solid #999;
+	padding:10px;
+}
+/* .rowList .xiaoqulou11 table tr:hover{
+	background-color: #E5F4FD !important;
+} */
+.yongshuifenxi11{
+	width: 84%;
+	padding: 10px;
+}
+
+@media screen and (max-width: 1500px){
+	.xiaoqulou{
+		top:35px;
+		width:96%;
+		height:94%;
+	}
+	.xiaoqulou .louleftcon{
+		height: 99%;
+	}
+	.louleftcon .el-tree{
+		height:84%;
+	}
+	.liebright .el-table--scrollable-y .el-table__body-wrapper{
+		height:89%;
+	}
+	.tableyonghu{
+		height:54% !important;
+		border-bottom:1px solid #999;
+	}
+	.el-table__header-wrapper {
+		width: calc(101% - 1px) !important;
+	}
+	.rowList table tr th{
+		font-size: 15px;
+		padding: 14px 0;
+	}
+	.rowList table tr td{
+		font-size: 15px;
+		padding: 8px 0;
+	}
+	.loucoa {
+		height: 99%;
+	}
+	.el-table .cell, .el-table th div{
+		padding-right: 8px;
+	}
+	.xqlfzdh span{
+		margin-right: 6px;
+		font-size: 14px;
+	}
+	.tishicx{
+		display: none;
+	}
+	.closeBoxxq{
+		position: absolute;
+		top: 9px;
+		right:15px;
+		z-index: 2;
+	}
+}

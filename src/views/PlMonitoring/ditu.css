@@ -1,0 +1,414 @@
+.m-part {
+    width: 100%;
+    height: 100%;
+}
+.m-part::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.m-part .title {
+	font-size: 30px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	color: #333;
+}
+.m-part .mapbox {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.m-part .info {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+	margin-left: 620px;
+}
+.m-part .info span {
+	display: block;
+	color: #999;
+}
+.m-part ol {
+	line-height: 40px;
+	margin-left: 0;
+	padding-left: 0;
+}
+.m-part pre {
+	padding: 10px 20px;
+	line-height: 30px;
+	border-radius: 3px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.m-part .m-map{
+	width: 100%;
+	height: 100%;
+}
+.m-part .m-map .amap-container{
+	width: 100%;
+	height: 100%;
+}
+
+.lljtb11{
+    position: absolute;
+    bottom: -15px;
+    left: 35px;
+}
+
+/* 轮播 */
+#banner {
+    width:50px;
+    padding:0;
+    clear: both;
+    position: relative;
+    height: 5px;
+    z-index:1;
+}
+ 
+#img-list {
+    display: block;
+    width:50px;
+    height: 5px;
+    overflow: hidden;
+    z-index:1;
+    position: relative;
+}
+#img-list li{
+    float: left;
+    width:6px;
+    height: 6px;
+    overflow: hidden;
+    /* position: absolute;
+    top:0;
+    left:0; */
+    z-index: 2;
+}
+#img-list li img{
+    width:5px;
+    height:5px;
+    padding: 0.2px;
+}
+#list {
+    width:100%;
+    height:18px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    z-index: 100;
+}
+#list > span {
+    width:18px;
+    height: 18px;
+    overflow: hidden;
+    display: inline-block;
+    margin:0 2px;
+    /* background: url(../images/yuan.png); */
+    cursor: pointer;
+}
+.el-autocomplete-suggestion li{
+    width: 100%;
+}
+
+/* 点击地图，获取经纬度和地址 */
+.jwdsj{
+    position: relative;
+    width: 210px;
+    padding:5px;
+    height:50px;
+    background-color: #fff;
+    box-shadow: 0 0 2px 1px #aaa;
+    margin: 2px;
+    font-size: 13px;
+}
+.sanjiaodw{
+    position: absolute;
+    bottom: -14px;
+    left: 98px;
+    height: 14px;
+    width: 15px;
+    overflow: hidden;
+}
+.sanjiaodw img{
+    position: absolute;
+    top: -7px;
+    left: -3px;
+    width: 20px;
+    height: 20px;
+}
+/* 刷新地图 */
+/* .refreshMap11{
+    position: absolute;
+
+} */
+/* DMA信息展示 */
+.dmaxinxi{
+    width:270px;
+    height: 216px;
+    padding: 0;
+    font-size: 14px;
+}
+.dmahb11{
+    line-height: 28px;
+    color: rgb(8, 129, 243);
+    border-bottom: 1px solid #999;
+    position: relative;
+    padding-left: 8px;
+}
+.nmaxxxx11{
+    padding: 4px 8px;
+}
+.tioazhuanBox{
+    padding: 6px 0 6px 4px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-top: 1px solid #999;
+}
+.tioazhuanBox>p{
+    padding: 0 3px;
+    border-right: 2px solid #999;
+    text-decoration: underline;
+    white-space: nowrap;
+    cursor:pointer;
+}
+.tioazhuanBox>p:last-child{
+    border-right: none;
+}
+.tioazhuanBox>p>a{
+    color: rgb(21, 36, 247);
+    font-size: 13px;
+}
+.tioazhuanBox>p>a:hover{
+    color: rgb(2, 15, 199);
+}
+.dmaxinxi .sanjiaodw{
+    position: absolute;
+    bottom: -14px;
+    left: 128px;
+}
+/* 地图是否展开处理 */
+.mapzk11{
+    position: absolute;
+    top: 48%;
+    left: 6px;
+}
+.mapzk12{
+    position: absolute;
+    top: 48%;
+    right: 6px;
+}
+.amapBox .mapzk10{
+    height: 28px;
+    cursor: pointer;
+}
+.mapzk10 img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+/* 工具, 右边 */
+.toolRightBox11{
+	position: absolute;
+	top: 12px;
+	right:84px;z-index: 10;
+	display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-color: #fff;
+    /* padding: 14px 0; */
+    box-shadow:0 3px 6px rgba(0,0,0,0.16);
+    border-radius: 2px;padding-right: 10px;
+}
+.toolBoxOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px!important;
+    border-right: 1px dashed #C2C2C2;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.toolBoxOne:last-child{
+    border: none;
+}
+.toolRightBox11 .toolBoxOne>div{
+    padding-left: 6px;
+}
+
+
+/* 左, 查询,DMA,管线颜色修改  工具箱 */
+.queryBox11 {
+	position: absolute;
+	top: 10px;
+    left: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-color: #fff;
+    /* padding: 14px 0; */
+    box-shadow:0 3px 6px rgba(0,0,0,0.16);
+    border-radius: 2px;z-index: 4;
+}
+.queryBox11 .queryBoxz12{
+    padding: 0 8px;
+    border-right: 1px dashed #C2C2C2;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.queryBox11 .queryBoxz13{
+    border: none;
+}
+.querySearch11 .el-input--small .el-input__inner{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.el-autocomplete-suggestion li{
+    padding: 0 10px;
+}
+
+/* 查询快捷选项 */
+.queryBox11 .chaxunkj11{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 100px;
+    box-shadow:0px 3px 6px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border:none;
+    padding:6px 11px;
+}
+.queryBox11 .chaxunkj11>div{
+    color: #7D8297;
+    font-size: 14px;
+    text-align: center;
+    width: 76px;
+}
+
+ /* 管线颜色选择  */
+.pipeForm {
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+.pipeForm .pipeBox {
+	width: 200px;
+	background-color: #fff;
+	border: 1px solid rgb(179, 205, 246);
+	border-radius: 4px;
+	border:1px solid rgb(179, 205, 246);
+	box-shadow:1px 1px 4px 2px rgb(222, 223, 223);
+	padding: 10px 10px 0 10px;
+	margin: 2px;
+}
+.pipeBox .el-checkbox {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.pipeBox .el-checkbox__label > div {
+	float: left;
+}
+.pipeBox .el-checkbox-group label:first-child {
+	margin-left: 20px;
+}
+.pipeBox .el-checkbox + .el-checkbox {
+	margin-left: 20px;
+}
+.colorTip13{
+	font-size: 17px;
+	color: #222;
+	padding-bottom: 20px;
+}
+.pipeBox .pipeText {
+	padding-right: 20px;
+}
+.pipeBox .el-color-picker--mini {
+	position: absolute;
+	top: 0;
+	left: 80px;
+}
+.pipeBox .el-color-picker--mini .el-color-picker__trigger {
+	padding: 0;
+	width: 18px;
+	height: 18px;
+}
+.kjList12{
+	position: relative;
+    height: 32px;
+    line-height: 32px;font-size: 16px;
+	color: #444;
+	padding-left: 12px;
+}
+.colorArray12{
+	position: absolute;
+	top: 40px;
+	left: 110px;
+}
+.ColorAdo123{height: 32px;}
+.colorArray12 .el-color-picker__trigger{
+	border: none;
+}
+
+/* 管网图 */
+.amapBox .pipeNetworkBox{
+    position: fixed;
+    top: 55px;
+    left: 64px;
+    z-index: 999;
+    width: 95%;
+    height: 90%;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 222;
+    padding: 10px 30px 30px 30px;
+}
+.closeBoxgwt11{
+    height: 50px;
+    position: relative;
+}
+.pipegwtImg{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* 水质右边 */
+.waterQRBox11{
+    position: absolute;
+    top: 50px;
+    right:1px;
+    box-shadow:0 3px 6px rgba(0,0,0,0.16);
+    border-radius: 2px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1500px){
+    .amapBox .pipeNetworkBox{
+        position: fixed;
+        top: 45px;
+        left: 64px;
+        width: 92%;
+    }
+    .pipegwtImg{
+        width: 100%;
+    }
+}
+
+.videobxdiv{width: 100%;height: 100%;background:rgba(0,0,0,0.6);position: fixed;left: 50%;top: 50%;transform: translate(-50%,-50%);z-index: 8;}
+.videobx{width: 600px;height: 400px;position: fixed;left: 50%;top: 50%;transform: translate(-50%,-50%);z-index: 9;}
+.videom{width: 100%;height: 100%;position: relative;}
+.videom video{width: 100%;height: 100%;object-fit: fill;}
+.closevideo{width: 30px;height: 30px;text-align: center;line-height: 30px; background: rgba(0,0,0,1);position: absolute;right: -5px;top: -10px;z-index: 5;cursor: pointer;color: #fff;font-size: 16px;border-radius: 50%;}
